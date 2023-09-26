@@ -76,6 +76,17 @@ print(df.head(3))
 print(df.tail(3))
 
 print(df.describe())
-print(df['Founded'])
+print(df['Founded'][1:10])
 print(df['Organization Id'])
 
+# REGEX
+import re
+
+# findall() function
+str = "I am currently learning python for DevOps"
+f = re.findall("n", str)
+print(f)
+
+# search() function
+x = re.search(r"\s", str)
+print(f"The first whitespace position is {x.start()}")
