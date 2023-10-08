@@ -6,6 +6,8 @@
 # This script will report the AWS resource usage.
 ############################
 
+set -x
+
 # EC2
 # S3
 # Lambda
