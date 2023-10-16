@@ -22,7 +22,7 @@ for x in range(5):
 count = 0
 while True:
     print(f"The count is {count}")
-    if count > 5:
+    if count > 4:
         break
     count += 1
 
