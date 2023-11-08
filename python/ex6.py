@@ -19,3 +19,11 @@ myInput = input("Hi, enter 1 or 2: ")
 
 # In-line if 
 print("My name is YAKUB" if myInput == "1" else "My alias is Y2O")
+
+# for loop
+pets = ['cats', 'dogs', 'rabbits', 'hamsters']
+for position, pet in enumerate(pets):
+    print(pet, "is at posssition", position)
+
+for key, value in mydict.items():
+    print(f"Name = {key}, Value = {value}")
