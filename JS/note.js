@@ -38,3 +38,14 @@ console.log(greeting + name)
 // Return Values
 console.log(Math.max(6, 9))
 
+// Expressions --> mass * acceleration
+// var force = mass * acceleration
+
+// Control Flow
+
+var count = 5;
+while (count > 0) {
+    console.log("The count is now ");
+    count -= 1;
+}
+document.write("I'm done........")
