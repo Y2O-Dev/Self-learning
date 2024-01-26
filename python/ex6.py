@@ -25,5 +25,19 @@ pets = ['cats', 'dogs', 'rabbits', 'hamsters']
 for position, pet in enumerate(pets):
     print(pet, "is at posssition", position)
 
-for key, value in mydict.items():
-    print(f"Name = {key}, Value = {value}")
+for i, j in mydict.items():
+    print(f"Name = {i}, Value = {j}")
+
+# while loop
+y = 10
+while y > 3:
+    print(f"The value of y is currently {y}")
+    y -= 1
+
+# try except
+try:
+    answer = 12/3
+    print (answer)
+
+except:
+    print ("An error occurred")
