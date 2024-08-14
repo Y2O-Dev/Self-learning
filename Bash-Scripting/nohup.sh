@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Testing nohup command with infinite while loop"
+#Testing nohup command with infinite while loop
 var=0
 while [ $var > 0 ]; do
     # Your commands go here
