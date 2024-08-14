@@ -53,5 +53,16 @@ url = f"https://api.github.com/repos/kubernetes/kubernetes/pulls"
 reply = r.get(url)
 pull = reply.json()
 
+print(pull[0]["user"]["login"], "=================")
+
 for i in pull:
-     print(i["user"]["login"])
+     print(i[1]["user"]["login"])
+
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+     return "Hello World"
